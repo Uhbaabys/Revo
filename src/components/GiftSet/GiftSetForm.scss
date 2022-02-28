@@ -1,0 +1,84 @@
+@import "src/components/variables";
+
+.giftset-form{
+    padding-top: 100px;
+    background-color: $light-grey-color;
+}
+.giftset-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 10%;
+    //grid-template-rows: repeat(3, 1fr);
+    padding: 50px 0 50px 0;
+    .giftset-image{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        z-index: 2;
+        align-self: end;
+        img{
+            max-height: 420px;
+            margin: 50px 50px 0 50px;
+        }
+    }
+    .giftset-middle-block{
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        background-color: $white-color;
+        display: grid;
+        grid-template-columns: 35% 65%;
+    }
+    .giftset-content{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        padding: 50px 30px 0 0;
+        h3{
+            font: $font-price;
+            color: $gold-accent-color;
+            text-align: left;
+        }
+        h2{
+            font: $font-title;
+            text-align: left;
+        }
+        p{
+            font: $font-body;
+            color: $dark-grey-color;
+            text-align: left;
+        }
+    }
+    .giftset-content-information{
+        width: 70%;
+        display: flex;
+        margin: 30px 0 50px 0;
+        div{
+            display: flex;
+            flex-grow: 1;
+            ul{
+                list-style: none;
+                text-align: left;
+                margin: 0;
+                padding-left: 20px;
+            }
+            li:first-child{
+                font-weight: bold;
+            }
+        }
+        img{
+            max-height: 40px;
+        }
+    }
+    .giftset-tabs{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+.giftset-buttons-block{
+    display: flex;
+}

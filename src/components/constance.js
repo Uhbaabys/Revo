@@ -1,0 +1,9 @@
+export const GIFTSET_ONE_PRICE = '$285';
+export const GIFTSET_TWO_PRICE = '$275';
+export const GIFTSET_THREE_PRICE = '$295';
+export const GIFTSET_ONE_TITLE = 'GIFTSET ONE'
+export const GIFTSET_TWO_TITLE = 'GIFTSET TWO'
+export const GIFTSET_THREE_TITLE = 'GIFTSET THREE'
+export const GIFTSET_ONE_DISCRIPTION = 'Great gift for coffee connoisseurs. Coffee beans are carefully selected by Revo, roasted according to the technology and know-how learned from famous artisans, along with the love and passion of the coffee maker… creating pure cups of coffee only exclusively for you.'
+export const GIFTSET_TWO_DISCRIPTION = 'Great gift for coffee connoisseurs. Coffee beans are carefully selected by Revo, roasted according to the technology and know-how learned from famous artisans, along with the love and passion of the coffee maker… creating pure cups of coffee only exclusively for you.'
+export const GIFTSET_THREE_DISCRIPTION = 'Great gift for coffee connoisseurs. Coffee beans are carefully selected by Revo, roasted according to the technology and know-how learned from famous artisans, along with the love and passion of the coffee maker… creating pure cups of coffee only exclusively for you.'

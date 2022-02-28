@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header'
+import GiftSetForm from './components/GiftSet/GiftSetForm'
+import GoodsForm from "./components/Goods/GoodsForm";
+import CoffeeBuildForm from "./components/CoffeeBuild/CoffeeBuildForm";
+import Footer from "./components/Footer/Footer";
+import CoffeeCombo from "./components/CoffeeCombo/CoffeeCombo";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div>
+          <Header/>
+          <CoffeeBuildForm />
+          <GoodsForm />
+          <GiftSetForm />
+            <CoffeeCombo />
+          <Footer />
+        </div>
     </div>
   );
 }

@@ -1,0 +1,38 @@
+@import "src/components/variables";
+
+.goods-item-container{
+  display: flex;
+  flex-direction: row;
+  //display: inline-block;
+  max-width: 550px;
+  min-width: 500px;
+  max-height: 250px;
+  padding: 30px 0 0 30px;
+  margin: 20px;
+  z-index: 2;
+  img {
+    max-width: 256px;
+    max-height: 256px;
+    background-color: $light-grey-color;
+  }
+  .discription{
+    display: inline;
+    background-color: $white-color;
+    text-align: left;
+    padding: 20px 40px;
+    h3{
+      font: $font-price;
+      color: $gold-accent-color;
+    }
+    h2{
+      font: $font-title;
+    }
+    p{
+      font: $font-body;
+      color: $dark-grey-color;
+    }
+    .div{
+      display: flex;
+    }
+  }
+}

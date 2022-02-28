@@ -1,0 +1,22 @@
+@import "src/components/variables";
+
+.by-button{
+  display: inline-block;
+  height: 30px;
+  width: 134px;
+  background-color: $gold-accent-color;
+  border: 3px solid $gold-accent-color;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 5px;
+
+  font: $font-button;
+  line-height: 1.5;
+  color: $light-accent-color;
+  text-decoration: none;
+
+  &:hover{
+    background-color: $light-accent-color;
+    color: $gold-accent-color;
+  }
+}
